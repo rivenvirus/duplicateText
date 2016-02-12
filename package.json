@@ -2,7 +2,7 @@
 	"name": "duplicatetext",
 	"displayName": "duplicateText",
 	"description": "Duplicate a selected text on VSCode editor.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "rivenvirus",
 	"engines": {
 		"vscode": "^0.10.6"
@@ -11,12 +11,12 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.duplicateText"
+		"onCommand:text.duplicateText"
 	],
 	"main": "./out/src/extension",
 	"contributes": {
 		"commands": [{
-			"command": "extension.duplicateText",
+			"command": "text.duplicateText",
 			"title": "Duplicate Text"
 		}]
 	},

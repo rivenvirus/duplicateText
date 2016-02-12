@@ -3,9 +3,7 @@
 import * as vscode from 'vscode';
 
 export function activate() {
-
-	//console.log('Congratulations, your extension "duplicatetext" is now active!');
-	vscode.commands.registerCommand('extension.duplicateText', () => {
+	vscode.commands.registerCommand('text.duplicateText', () => {
         const editor = vscode.window.activeTextEditor;
 		const selection = editor.selection;
         if(!selection.isEmpty){
