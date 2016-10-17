@@ -2,7 +2,7 @@
 	"name": "duplicatetext",
 	"displayName": "duplicateText",
 	"description": "Duplicate a selected text on VSCode editor.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "rivenvirus",
 	"engines": {
 		"vscode": "^0.10.6"
